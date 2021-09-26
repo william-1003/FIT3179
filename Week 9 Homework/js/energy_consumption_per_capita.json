@@ -25,7 +25,10 @@
       "color": {
         "field": "Energy consumption per capita (kWh)",
         "type": "quantitative",
-        "scale": {"type": "log"}
+        "scale": {"type": "threshold",
+        "domain": [10,1000,10000,100000],
+        "range": ["#ffffb2","#fecc5c","#fd8d3c","#f03b20","#bd0026"]
+        }
       },
       "tooltip": [
         {"field": "properties.NAME", "type": "nominal", "title": "Country"},
