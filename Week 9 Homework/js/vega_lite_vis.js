@@ -1,4 +1,4 @@
-var vg_1 = "energy_consumption_per_capita.json";
+var vg_1 = "js/energy_consumption_per_capita.json";
 
 vegaEmbed("#chloropleth_map", vg_1).then(function(result) {
  // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
