@@ -1,0 +1,721 @@
+year,energy_type,power_consumption
+1800,Wind,0
+1800,Oil,0
+1800,Nuclear,0
+1800,Hydropower,0
+1800,Traditional bimass,5556
+1800,Other renewables,0
+1800,Biofuels,0
+1800,Solar,0
+1800,Coal,97
+1800,Gas,0
+1810,Wind,0
+1810,Oil,0
+1810,Nuclear,0
+1810,Hydropower,0
+1810,Traditional bimass,5833
+1810,Other renewables,0
+1810,Biofuels,0
+1810,Solar,0
+1810,Coal,128
+1810,Gas,0
+1820,Wind,0
+1820,Oil,0
+1820,Nuclear,0
+1820,Hydropower,0
+1820,Traditional bimass,6111
+1820,Other renewables,0
+1820,Biofuels,0
+1820,Solar,0
+1820,Coal,153
+1820,Gas,0
+1830,Wind,0
+1830,Oil,0
+1830,Nuclear,0
+1830,Hydropower,0
+1830,Traditional bimass,6389
+1830,Other renewables,0
+1830,Biofuels,0
+1830,Solar,0
+1830,Coal,264
+1830,Gas,0
+1840,Wind,0
+1840,Oil,0
+1840,Nuclear,0
+1840,Hydropower,0
+1840,Traditional bimass,6944
+1840,Other renewables,0
+1840,Biofuels,0
+1840,Solar,0
+1840,Coal,356
+1840,Gas,0
+1850,Wind,0
+1850,Oil,0
+1850,Nuclear,0
+1850,Hydropower,0
+1850,Traditional bimass,7222
+1850,Other renewables,0
+1850,Biofuels,0
+1850,Solar,0
+1850,Coal,569
+1850,Gas,0
+1860,Wind,0
+1860,Oil,0
+1860,Nuclear,0
+1860,Hydropower,0
+1860,Traditional bimass,6944
+1860,Other renewables,0
+1860,Biofuels,0
+1860,Solar,0
+1860,Coal,1061
+1860,Gas,0
+1870,Wind,0
+1870,Oil,6
+1870,Nuclear,0
+1870,Hydropower,0
+1870,Traditional bimass,6944
+1870,Other renewables,0
+1870,Biofuels,0
+1870,Solar,0
+1870,Coal,1642
+1870,Gas,0
+1880,Wind,0
+1880,Oil,33
+1880,Nuclear,0
+1880,Hydropower,0
+1880,Traditional bimass,6944
+1880,Other renewables,0
+1880,Biofuels,0
+1880,Solar,0
+1880,Coal,2542
+1880,Gas,0
+1890,Wind,0
+1890,Oil,89
+1890,Nuclear,0
+1890,Hydropower,37
+1890,Traditional bimass,6667
+1890,Other renewables,0
+1890,Biofuels,0
+1890,Solar,0
+1890,Coal,3856
+1890,Gas,33
+1900,Wind,0
+1900,Oil,181
+1900,Nuclear,0
+1900,Hydropower,44
+1900,Traditional bimass,6111
+1900,Other renewables,0
+1900,Biofuels,0
+1900,Solar,0
+1900,Coal,5728
+1900,Gas,64
+1910,Wind,0
+1910,Oil,397
+1910,Nuclear,0
+1910,Hydropower,88
+1910,Traditional bimass,6389
+1910,Other renewables,0
+1910,Biofuels,0
+1910,Solar,0
+1910,Coal,8656
+1910,Gas,142
+1920,Wind,0
+1920,Oil,889
+1920,Nuclear,0
+1920,Hydropower,168
+1920,Traditional bimass,6944
+1920,Other renewables,0
+1920,Biofuels,0
+1920,Solar,0
+1920,Coal,9833
+1920,Gas,233
+1930,Wind,0
+1930,Oil,1756
+1930,Nuclear,0
+1930,Hydropower,344
+1930,Traditional bimass,7222
+1930,Other renewables,0
+1930,Biofuels,0
+1930,Solar,0
+1930,Coal,10125
+1930,Gas,603
+1940,Wind,0
+1940,Oil,2653
+1940,Nuclear,0
+1940,Hydropower,504
+1940,Traditional bimass,7222
+1940,Other renewables,0
+1940,Biofuels,0
+1940,Solar,0
+1940,Coal,11586
+1940,Gas,875
+1950,Wind,0
+1950,Oil,5444
+1950,Nuclear,0
+1950,Hydropower,877
+1950,Traditional bimass,7500
+1950,Other renewables,0
+1950,Biofuels,0
+1950,Solar,0
+1950,Coal,12603
+1950,Gas,2092
+1960,Wind,0
+1960,Oil,11097
+1960,Nuclear,0
+1960,Hydropower,1813
+1960,Traditional bimass,8889
+1960,Other renewables,0
+1960,Biofuels,0
+1960,Solar,0
+1960,Coal,15442
+1960,Gas,4472
+1965,Wind,0
+1965,Oil,18109
+1965,Nuclear,71
+1965,Hydropower,2564
+1965,Traditional bimass,9162
+1965,Other renewables,50
+1965,Biofuels,0
+1965,Solar,0
+1965,Coal,16140
+1965,Gas,6303
+1966,Wind,0
+1966,Oil,19496
+1966,Nuclear,96
+1966,Hydropower,2733
+1966,Traditional bimass,9218
+1966,Other renewables,55
+1966,Biofuels,0
+1966,Solar,0
+1966,Coal,16324
+1966,Gas,6869
+1967,Wind,0
+1967,Oil,20891
+1967,Nuclear,114
+1967,Hydropower,2794
+1967,Traditional bimass,9274
+1967,Other renewables,56
+1967,Biofuels,0
+1967,Solar,0
+1967,Coal,16061
+1967,Gas,7375
+1968,Wind,0
+1968,Oil,22675
+1968,Nuclear,145
+1968,Hydropower,2942
+1968,Traditional bimass,9331
+1968,Other renewables,61
+1968,Biofuels,0
+1968,Solar,0
+1968,Coal,16301
+1968,Gas,8044
+1969,Wind,0
+1969,Oil,24577
+1969,Nuclear,172
+1969,Hydropower,3116
+1969,Traditional bimass,9387
+1969,Other renewables,65
+1969,Biofuels,0
+1969,Solar,0
+1969,Coal,16799
+1969,Gas,8833
+1970,Wind,0
+1970,Oil,26708
+1970,Nuclear,219
+1970,Hydropower,3263
+1970,Traditional bimass,9444
+1970,Other renewables,71
+1970,Biofuels,0
+1970,Solar,0
+1970,Coal,17059
+1970,Gas,9614
+1971,Wind,0
+1971,Oil,28205
+1971,Nuclear,305
+1971,Hydropower,3409
+1971,Traditional bimass,9499
+1971,Other renewables,77
+1971,Biofuels,0
+1971,Solar,0
+1971,Coal,16966
+1971,Gas,10292
+1972,Wind,0
+1972,Oil,30378
+1972,Nuclear,423
+1972,Hydropower,3568
+1972,Traditional bimass,9553
+1972,Other renewables,83
+1972,Biofuels,0
+1972,Solar,0
+1972,Coal,17154
+1972,Gas,10861
+1973,Wind,0
+1973,Oil,32746
+1973,Nuclear,566
+1973,Hydropower,3619
+1973,Traditional bimass,9608
+1973,Other renewables,89
+1973,Biofuels,0
+1973,Solar,0
+1973,Coal,17668
+1973,Gas,11378
+1974,Wind,0
+1974,Oil,32272
+1974,Nuclear,741
+1974,Hydropower,3976
+1974,Traditional bimass,9663
+1974,Other renewables,94
+1974,Biofuels,0
+1974,Solar,0
+1974,Coal,17682
+1974,Gas,11656
+1975,Wind,0
+1975,Oil,31948
+1975,Nuclear,1027
+1975,Hydropower,4025
+1975,Traditional bimass,9718
+1975,Other renewables,96
+1975,Biofuels,0
+1975,Solar,0
+1975,Coal,18025
+1975,Gas,11661
+1976,Wind,0
+1976,Oil,34030
+1976,Nuclear,1202
+1976,Hydropower,4009
+1976,Traditional bimass,9774
+1976,Other renewables,107
+1976,Biofuels,0
+1976,Solar,0
+1976,Coal,18688
+1976,Gas,12356
+1977,Wind,0
+1977,Oil,35215
+1977,Nuclear,1496
+1977,Hydropower,4144
+1977,Traditional bimass,9830
+1977,Other renewables,113
+1977,Biofuels,0
+1977,Solar,0
+1977,Coal,19241
+1977,Gas,12761
+1978,Wind,0
+1978,Oil,36426
+1978,Nuclear,1738
+1978,Hydropower,4484
+1978,Traditional bimass,9886
+1978,Other renewables,119
+1978,Biofuels,0
+1978,Solar,0
+1978,Coal,19458
+1978,Gas,13294
+1979,Wind,0
+1979,Oil,37024
+1979,Nuclear,1808
+1979,Hydropower,4709
+1979,Traditional bimass,9943
+1979,Other renewables,128
+1979,Biofuels,0
+1979,Solar,0
+1979,Coal,20364
+1979,Gas,14119
+1980,Wind,0
+1980,Oil,35577
+1980,Nuclear,1978
+1980,Hydropower,4810
+1980,Traditional bimass,10000
+1980,Other renewables,137
+1980,Biofuels,0
+1980,Solar,0
+1980,Coal,20858
+1980,Gas,14239
+1981,Wind,0
+1981,Oil,34296
+1981,Nuclear,2335
+1981,Hydropower,4914
+1981,Traditional bimass,10106
+1981,Other renewables,148
+1981,Biofuels,0
+1981,Solar,0
+1981,Coal,21150
+1981,Gas,14394
+1982,Wind,0
+1982,Oil,33198
+1982,Nuclear,2534
+1982,Hydropower,5003
+1982,Traditional bimass,10213
+1982,Other renewables,170
+1982,Biofuels,0
+1982,Solar,0
+1982,Coal,21384
+1982,Gas,14469
+1983,Wind,0
+1983,Oil,32969
+1983,Nuclear,2872
+1983,Hydropower,5216
+1983,Traditional bimass,10321
+1983,Other renewables,189
+1983,Biofuels,0
+1983,Solar,0
+1983,Coal,22045
+1983,Gas,14703
+1984,Wind,0
+1984,Oil,33739
+1984,Nuclear,3485
+1984,Hydropower,5393
+1984,Traditional bimass,10430
+1984,Other renewables,211
+1984,Biofuels,0
+1984,Solar,0
+1984,Coal,23000
+1984,Gas,15903
+1985,Wind,0
+1985,Oil,33789
+1985,Nuclear,4136
+1985,Hydropower,5499
+1985,Traditional bimass,10541
+1985,Other renewables,216
+1985,Biofuels,0
+1985,Solar,0
+1985,Coal,23986
+1985,Gas,16261
+1986,Wind,0
+1986,Oil,34803
+1986,Nuclear,4430
+1986,Hydropower,5574
+1986,Traditional bimass,10653
+1986,Other renewables,238
+1986,Biofuels,0
+1986,Solar,0
+1986,Coal,24256
+1986,Gas,16419
+1987,Wind,1
+1987,Oil,35499
+1987,Nuclear,4819
+1987,Hydropower,5649
+1987,Traditional bimass,10765
+1987,Other renewables,255
+1987,Biofuels,0
+1987,Solar,0
+1987,Coal,25210
+1987,Gas,17281
+1988,Wind,1
+1988,Oil,36703
+1988,Nuclear,5253
+1988,Hydropower,5830
+1988,Traditional bimass,10879
+1988,Other renewables,262
+1988,Biofuels,0
+1988,Solar,0
+1988,Coal,25965
+1988,Gas,18089
+1989,Wind,7
+1989,Oil,37300
+1989,Nuclear,5403
+1989,Hydropower,5799
+1989,Traditional bimass,10995
+1989,Other renewables,290
+1989,Biofuels,0
+1989,Solar,1
+1989,Coal,26213
+1989,Gas,18869
+1990,Wind,10
+1990,Oil,37691
+1990,Nuclear,5557
+1990,Hydropower,5997
+1990,Traditional bimass,11111
+1990,Other renewables,325
+1990,Biofuels,91
+1990,Solar,1
+1990,Coal,25895
+1990,Gas,19483
+1991,Wind,11
+1991,Oil,37691
+1991,Nuclear,5823
+1991,Hydropower,6137
+1991,Traditional bimass,11243
+1991,Other renewables,339
+1991,Biofuels,102
+1991,Solar,1
+1991,Coal,25643
+1991,Gas,19975
+1992,Wind,13
+1992,Oil,38344
+1992,Nuclear,5867
+1992,Hydropower,6136
+1992,Traditional bimass,11376
+1992,Other renewables,364
+1992,Biofuels,98
+1992,Solar,1
+1992,Coal,25550
+1992,Gas,20067
+1993,Wind,16
+1993,Oil,38099
+1993,Nuclear,6069
+1993,Hydropower,6503
+1993,Traditional bimass,11511
+1993,Other renewables,376
+1993,Biofuels,100
+1993,Solar,2
+1993,Coal,25675
+1993,Gas,20269
+1994,Wind,20
+1994,Oil,38935
+1994,Nuclear,6183
+1994,Hydropower,6547
+1994,Traditional bimass,11647
+1994,Other renewables,390
+1994,Biofuels,111
+1994,Solar,2
+1994,Coal,25774
+1994,Gas,20394
+1995,Wind,23
+1995,Oil,39445
+1995,Nuclear,6451
+1995,Hydropower,6905
+1995,Traditional bimass,11785
+1995,Other renewables,407
+1995,Biofuels,115
+1995,Solar,2
+1995,Coal,25954
+1995,Gas,21108
+1996,Wind,26
+1996,Oil,40380
+1996,Nuclear,6686
+1996,Hydropower,7001
+1996,Traditional bimass,11925
+1996,Other renewables,418
+1996,Biofuels,115
+1996,Solar,2
+1996,Coal,26572
+1996,Gas,22164
+1997,Wind,33
+1997,Oil,41413
+1997,Nuclear,6640
+1997,Hydropower,7128
+1997,Traditional bimass,12066
+1997,Other renewables,448
+1997,Biofuels,132
+1997,Solar,2
+1997,Coal,26527
+1997,Gas,22033
+1998,Wind,44
+1998,Oil,41624
+1998,Nuclear,6754
+1998,Hydropower,7186
+1998,Traditional bimass,12209
+1998,Other renewables,469
+1998,Biofuels,126
+1998,Solar,2
+1998,Coal,26360
+1998,Gas,22439
+1999,Wind,59
+1999,Oil,42371
+1999,Nuclear,7012
+1999,Hydropower,7238
+1999,Traditional bimass,12414
+1999,Other renewables,493
+1999,Biofuels,122
+1999,Solar,3
+1999,Coal,26522
+1999,Gas,23075
+2000,Wind,87
+2000,Oil,42897
+2000,Nuclear,7169
+2000,Hydropower,7367
+2000,Traditional bimass,12500
+2000,Other renewables,517
+2000,Biofuels,116
+2000,Solar,3
+2000,Coal,27417
+2000,Gas,24000
+2001,Wind,106
+2001,Oil,43278
+2001,Nuclear,7324
+2001,Hydropower,7131
+2001,Traditional bimass,12500
+2001,Other renewables,530
+2001,Biofuels,127
+2001,Solar,4
+2001,Coal,27853
+2001,Gas,24331
+2002,Wind,143
+2002,Oil,43639
+2002,Nuclear,7393
+2002,Hydropower,7216
+2002,Traditional bimass,12470
+2002,Other renewables,566
+2002,Biofuels,149
+2002,Solar,5
+2002,Coal,28945
+2002,Gas,25053
+2003,Wind,171
+2003,Oil,44610
+2003,Nuclear,7197
+2003,Hydropower,7159
+2003,Traditional bimass,12329
+2003,Other renewables,594
+2003,Biofuels,185
+2003,Solar,6
+2003,Coal,31497
+2003,Gas,25753
+2004,Wind,230
+2004,Oil,46256
+2004,Nuclear,7476
+2004,Hydropower,7636
+2004,Traditional bimass,12160
+2004,Other renewables,637
+2004,Biofuels,209
+2004,Solar,8
+2004,Coal,33664
+2004,Gas,26736
+2005,Wind,280
+2005,Oil,46824
+2005,Nuclear,7448
+2005,Hydropower,7845
+2005,Traditional bimass,12076
+2005,Other renewables,685
+2005,Biofuels,246
+2005,Solar,11
+2005,Coal,36171
+2005,Gas,27464
+2006,Wind,355
+2006,Oil,47367
+2006,Nuclear,7493
+2006,Hydropower,8093
+2006,Traditional bimass,11993
+2006,Other renewables,726
+2006,Biofuels,313
+2006,Solar,15
+2006,Coal,38071
+2006,Gas,28175
+2007,Wind,454
+2007,Oil,47958
+2007,Nuclear,7295
+2007,Hydropower,8179
+2007,Traditional bimass,11911
+2007,Other renewables,783
+2007,Biofuels,424
+2007,Solar,21
+2007,Coal,40224
+2007,Gas,29325
+2008,Wind,582
+2008,Oil,47566
+2008,Nuclear,7227
+2008,Hydropower,8599
+2008,Traditional bimass,11829
+2008,Other renewables,833
+2008,Biofuels,574
+2008,Solar,33
+2008,Coal,40770
+2008,Gas,30025
+2009,Wind,724
+2009,Oil,46654
+2009,Nuclear,7081
+2009,Hydropower,8533
+2009,Traditional bimass,11747
+2009,Other renewables,891
+2009,Biofuels,636
+2009,Solar,55
+2009,Coal,40149
+2009,Gas,29411
+2010,Wind,903
+2010,Oil,48087
+2010,Nuclear,7219
+2010,Hydropower,8958
+2010,Traditional bimass,11667
+2010,Other renewables,990
+2010,Biofuels,734
+2010,Solar,88
+2010,Coal,41997
+2010,Gas,31606
+2011,Wind,1142
+2011,Oil,48550
+2011,Nuclear,6874
+2011,Hydropower,9073
+2011,Traditional bimass,11553
+2011,Other renewables,1033
+2011,Biofuels,775
+2011,Solar,169
+2011,Coal,44018
+2011,Gas,32372
+2012,Wind,1367
+2012,Oil,49157
+2012,Nuclear,6364
+2012,Hydropower,9401
+2012,Traditional bimass,11441
+2012,Other renewables,1110
+2012,Biofuels,789
+2012,Solar,260
+2012,Coal,44185
+2012,Gas,33219
+2013,Wind,1628
+2013,Oil,49689
+2013,Nuclear,6384
+2013,Hydropower,9765
+2013,Traditional bimass,11330
+2013,Other renewables,1188
+2013,Biofuels,857
+2013,Solar,356
+2013,Coal,44993
+2013,Gas,33767
+2014,Wind,1798
+2014,Oil,50014
+2014,Nuclear,6467
+2014,Hydropower,9910
+2014,Traditional bimass,11220
+2014,Other renewables,1275
+2014,Biofuels,933
+2014,Solar,504
+2014,Coal,44954
+2014,Gas,33994
+2015,Wind,2104
+2015,Oil,50892
+2015,Nuclear,6516
+2015,Hydropower,9827
+2015,Traditional bimass,11111
+2015,Other renewables,1362
+2015,Biofuels,937
+2015,Solar,650
+2015,Coal,43844
+2015,Gas,34781
+2016,Wind,2424
+2016,Oil,51920
+2016,Nuclear,6576
+2016,Hydropower,10092
+2016,Traditional bimass,11111
+2016,Other renewables,1378
+2016,Biofuels,970
+2016,Solar,825
+2016,Coal,43196
+2016,Gas,35589
+2017,Wind,2852
+2017,Oil,52568
+2017,Nuclear,6596
+2017,Hydropower,10165
+2017,Traditional bimass,11111
+2017,Other renewables,1457
+2017,Biofuels,1012
+2017,Solar,1117
+2017,Coal,43360
+2017,Gas,36586
+2018,Wind,3157
+2018,Oil,53181
+2018,Nuclear,6711
+2018,Hydropower,10368
+2018,Traditional bimass,11111
+2018,Other renewables,1529
+2018,Biofuels,1109
+2018,Solar,1448
+2018,Coal,44109
+2018,Gas,38517
+2019,Wind,3540
+2019,Oil,53620
+2019,Nuclear,6923
+2019,Hydropower,10455
+2019,Traditional bimass,11111
+2019,Other renewables,1614
+2019,Biofuels,1143
+2019,Solar,1793
+2019,Coal,43849
+2019,Gas,39292
