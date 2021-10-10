@@ -1,4 +1,4 @@
-Entity,Code,Year,"GDP per capita, PPP (constant 2017 international $)",Continent,Energy consumption per capita (kWh)
+Entity,Code,Year,GDP,Continent,Consumption
 Afghanistan,AFG,2016,2057.067978,Asia,1010.014
 Albania,ALB,2016,12291.87338,Europe,13668.121
 Algeria,DZA,2016,11826.16642,Africa,15210.944
