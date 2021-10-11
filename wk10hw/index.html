@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Week 10 Homework</title>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Link styles.css sheet-->
+    <link rel = "stylesheet" href = "css/styles.css">
+
+    <!-- Import Ubuntu font from Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Import pure.css library-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css" />
+</head>
+
+<body>
+    <h1 style = "text-align:center">Global Energy Production and Consumption</h1>
+
+    <div class = "pure-g text_div">
+        <div class = "pure-u-1-2">
+            <h2>Global energy consumption vs GDP per capita scatterplot</h2>
+            <div id = "vg1div"></div>
+        </div>
+        <div class = "pure-u-1-4 text_div">
+            <h2 style = "visibility: hidden">Hidden text</h2>
+            <div id = "scatterplot_text"> The following scatterplot indicates that there is a general correlation between the annual energy consumption per person
+                and the GDP per capita of a country. The GDP per capita of each country has been standardised using the international dollar. For a given country,
+                one international dollar would purchase an equivalent amount of goods and services that one U.S dollar could obtain in the United States of America.
+                Furthermore, the total energy consumption per capita is measured in units of kWh. For reference, one kWh is the equivalent of running the microwave
+                for one hour straight, or charging a phone for 60 hours. 
+            </div>
+        </div>
+    </div>
+
+    <div class = "pure-g text_div">
+        <div class = "pure-u-1">
+            <h2>Annual global energy consumption statstics by country</h2>
+            <div id = "vg2div"></div>
+        </div>
+    </div>
+
+</body>
+<script type = "text/javascript">
+    var vg1 = "js/scatterplot.vg.json";
+    vegaEmbed("#vg1div",vg1);
+
+    var vg2 = "js/choropleth_map.vg.json";
+    vegaEmbed("#vg2div",vg2);
+</script>
+</html>

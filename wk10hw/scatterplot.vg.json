@@ -1,0 +1,60 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 600,
+    "data": {"url": "https://raw.githubusercontent.com/william-1003/FIT3179/main/Visualisation%202/data/energy-gdp-percapita-2016.csv"},
+    "selection": {
+      "continent_hightlight": {
+        "type": "multi",
+        "fields": ["Continent"],
+        "bind": "legend"
+      }
+    },
+  "params": [
+    {
+      "name": "min_GDP",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 150000,
+        "step": 5000,
+        "name": "Minimum GDP"
+      }
+    },
+    {
+      "name": "min_consumption",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 250000,
+        "step": 5000,
+        "name": "Minimum consumption"
+      }
+    }
+  ],
+    "transform": [
+      {"filter": "datum.GDP > min_GDP"},
+      {"filter": "datum.Consumption > min_consumption"}
+    ],
+  
+    "mark": "circle",
+    "encoding": {
+      "x": {"field": "GDP", "type": "quantitative", "title": "GDP per capita (international $)"},
+      "y": {"field": "Consumption", "type": "quantitative", "title": "Annual energy consumption per capita(kWh)"},
+      "color": {
+        "field": "Continent",
+        "type": "nominal"
+      },
+      "opacity": {
+      "condition": {"selection": "continent_hightlight", "value": 0.6},
+      "value": 0.2
+    },
+      "tooltip": [
+      {"field": "Entity", "type": "nominal"},
+      {"field": "GDP", "type": "quantitative"},
+      {"field": "Consumption", "type": "quantitative"}
+      ]
+    }
+  }

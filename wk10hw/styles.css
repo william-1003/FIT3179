@@ -1,0 +1,16 @@
+h1 {
+    font-family: "Ubuntu"
+}
+
+h2 {
+    font-family: "Ubuntu"
+}
+
+.text_div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#scatterplot_text {
+    margin-left: 50px;
+}
