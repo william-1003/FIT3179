@@ -1,4 +1,4 @@
-Entity,Code,Year,percen_access
+Entity,Code,Year,percent_access
 Afghanistan,AFG,2019,97.7
 Africa Eastern and Southern,,2019,43.64066111
 Africa Western and Central,,2019,51.34142147
@@ -39,7 +39,7 @@ Canada,CAN,2019,100
 Cape Verde,CPV,2019,95.53353882
 Caribbean Small States,,2019,98.28050491
 Cayman Islands,CYM,2019,100
-Central African Republic,CAF,2019,14.3
+Central African Rep.,CAF,2019,14.3
 Central Europe and the Baltics,,2019,100
 Chad,TCD,2019,8.4
 Channel Islands,OWID_CIS,2019,100
@@ -55,7 +55,7 @@ Cuba,CUB,2019,99.8
 Curacao,CUW,2019,100
 Cyprus,CYP,2019,100
 Czechia,CZE,2019,100
-Democratic Republic of Congo,COD,2019,19.1
+Dem. Rep. Congo,COD,2019,19.1
 Denmark,DNK,2019,100
 Djibouti,DJI,2019,61.27593613
 Dominica,DMA,2019,100
@@ -224,7 +224,7 @@ South Africa,ZAF,2019,85
 South Asia,,2019,94.39872919
 South Asia (IDA & IBRD),,2019,94.39872919
 South Korea,KOR,2019,100
-South Sudan,SSD,2019,6.720535278
+S. Sudan,SSD,2019,6.720535278
 Spain,ESP,2019,100
 Sri Lanka,LKA,2019,100
 Sub-Saharan Africa,,2019,46.74968559
@@ -251,8 +251,8 @@ Uganda,UGA,2019,41.3
 Ukraine,UKR,2019,100
 United Arab Emirates,ARE,2019,100
 United Kingdom,GBR,2019,100
-United States,USA,2019,100
-United States Virgin Islands,VIR,2019,100
+United States of America,USA,2019,100
+United States of America Virgin Islands,VIR,2019,100
 Upper middle income,,2019,99.37740261
 Uruguay,URY,2019,99.9
 Uzbekistan,UZB,2019,100
