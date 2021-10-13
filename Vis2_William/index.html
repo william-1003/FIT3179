@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Week 10 Homework</title>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Link styles.css sheet -->
+    <link rel = "stylesheet" href = "css/styles.css">
+
+    <!-- Import Ubuntu font from Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!--Import pure.css library -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css" />
+</head>
+
+<body>
+    <!-- Main title of visualisation -->
+    <h1 style = "text-align:center">Global Energy Production and Consumption</h1>
+
+    <!-- Row of visualisation used for choropleth map of energy access-->
+    <div class = "pure-g text_div text_div">
+        <div class = "pure-u-1">
+            <h2>Does everyone have access to electricity?</h2>
+            <p>
+                Below is a visualisation of the percentage energy access of countries in the year 2019. The large majority of countries around the world are able to provide
+                energy access to almost 100% of their residents. Some notable regions with low energy access percentages include the Africa and Asia regions. Specifically, 
+                <b>South Sudan</b>, <b>Chad</b> and the <b>Central African Republic</b> have energy access percentages of <b>6.7%</b>, <b>8.4%</b> and <b>14.3%</b> respectively.
+            </p>
+            <div id = "energy_access_choropleth"></div>
+        </div>
+    </div>
+
+    <!-- Row of visualisation used for choropleth map of annual energy consumption per capita -->
+    <div class = "pure-g text_div text_div">
+        <div class = "pure-u-1">
+            <h2>Which countries consume the most energy per person?</h2>
+            <p>
+                The visualisation to the left depicts the annual energy consumption per capita categorised by country. The total energy consumption per capita is 
+                measured by a logarthmic scale using units of kWh. For reference, on kWh is the equivalent of running the microwave for one hour straight,
+                or charging a phone for 60 hours. Hover over a specific country in the geographic map to view the corresponding energy consumptions statsitics. 
+                The total energy consumption per capita of a specific year can further be adjusted using the slider on the bottom.
+            </p>
+            <div id = "consumption_choropleth"></div>
+        </div>
+    </div>
+
+    <!-- Row of visualisastion used for stacked area chart by energy type -->
+    <div class = "pure-g text_div">
+        <div class = "pure-u-1-2">
+            <h2>What type of primary energy sources are being used?</h2>
+            <p>
+                The following scatterplot indicates that there is a general correlation between the annual energy consumption per person
+                and the GDP per capita of a country. The GDP per capita of each country has been standardised using the international dollar. For a given country,
+                one international dollar would purchase an equivalent amount of goods and services that one U.S dollar could obtain in the United States of America.
+            </p>
+            <div id = "global_consumption_by_type_area"></div>
+        </div>
+        <div class = "pure-u-1-2">
+            <h2>What type of renewable energy sources are being used?</h2>
+            <p>
+                The following scatterplot indicates that there is a general correlation between the annual energy consumption per person
+                and the GDP per capita of a country. The GDP per capita of each country has been standardised using the international dollar. For a given country,
+                one international dollar would purchase an equivalent amount of goods and services that one U.S dollar could obtain in the United States of America.
+            </p>
+            <div id = "global_renewables_vis"></div>
+        </div>
+    </div>
+
+    <!-- Row of visualisation for renewable energy visualisations -->
+    <div class = "pure-g text_div">
+        <div class = "pure-u-1-2">
+            <h2>The top 20 countries by proportion of renewable energy</h2>
+            <div id = "country_renewable_bar"></div>
+        </div>
+        <div class = "pure-u-1-2">
+            <h2>Do wealthier countries consume more energy per person?</h2>
+            <p>
+                The following scatterplot indicates that there is a general correlation between the annual energy consumption per person
+                and the GDP per capita of a country. The GDP per capita of each country has been standardised using the international dollar. For a given country,
+                one international dollar would purchase an equivalent amount of goods and services that one U.S dollar could obtain in the United States of America.
+                The countries have further been categorised based on their continent. The legend on the right can be used as a filter to view a specific continent.
+                To reset the filter, click on any empty section of the visualisation.
+            </p>
+            <div id = "gdp_consumption_scatterplot"></div>
+        </div>
+    </div>
+
+</body>
+
+<!-- js file used to embed Vega lite visualisations -->
+<script src = "js/vega_lite_vis.js"></script>
+
+</html>
