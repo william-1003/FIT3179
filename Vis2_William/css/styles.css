@@ -1,0 +1,45 @@
+h1 {
+    font-family: "Ubuntu"
+}
+
+h2 {
+    font-family: "Ubuntu"
+}
+
+p {
+    font-family: "Ubuntu"
+}
+
+body {
+    background-color:#f5fffa;
+}
+
+.text_div {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#global_consumption_by_type_area {
+    height: 400px;
+    width: 100%;
+}
+
+#consumption_choropleth {
+    height: 600px;
+    width: 100%;
+}
+
+#energy_access_choropleth {
+    height: 600px;
+    width: 100%;
+}
+
+#country_renewable_bar {
+    height: 600px;
+    width: 100%;
+}
+
+#global_renewables_vis {
+    height: 400px;
+    width: 100%;
+}
