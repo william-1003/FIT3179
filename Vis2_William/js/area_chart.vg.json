@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/william-1003/FIT3179/main/Visualisation%202/data/global-energy-by-type.csv"},
+  "background": "#f5fffa",
+
+  "params": [
+  {
+    "name": "start_year",
+    "value": 1800,
+    "bind": {
+      "input": "range",
+      "min": 1800,
+      "max": 2018,
+      "step": 1,
+      "name": "Start year"
+    }
+  },
+  {
+    "name": "end_year",
+    "value": 2019,
+    "bind": {
+      "input": "range",
+      "min": 1801,
+      "max": 2019,
+      "step": 1,
+      "name": "End year"
+    }
+  }
+],
+
+  "mark": "area",
+  "encoding": {
+    "x": {
+    "timeUnit": "year", "field": "year",
+    "axis": {"format": "%Y"},
+    "title": "Year"
+    },
+    "y": {
+      "aggregate": "sum", "field": "power_consumption",
+      "title": "Global energy consumption (TWh)"
+    },
+    "color": {
+      "field": "energy_type",
+      "scale": {"scheme": "category10"},
+      "title": "Energy type"
+    }
+  }
+}
