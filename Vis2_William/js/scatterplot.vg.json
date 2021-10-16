@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 600,
-    "height": 400,
+    "width": "container",
+    "height": "container",
     "data": {"url": "https://raw.githubusercontent.com/william-1003/FIT3179/main/Visualisation%202/data/energy-gdp-percapita-2016.csv"},
     "background": "#f5fffa",
     "selection": {
@@ -18,7 +18,7 @@
       "bind": {
         "input": "range",
         "min": 0,
-        "max": 150000,
+        "max": 110000,
         "step": 5000,
         "name": "Minimum GDP"
       }
@@ -29,7 +29,7 @@
       "bind": {
         "input": "range",
         "min": 0,
-        "max": 250000,
+        "max": 95000,
         "step": 5000,
         "name": "Minimum consumption"
       }

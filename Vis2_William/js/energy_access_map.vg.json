@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 600,
+  "height": "container",
   "background": "#f5fffa",
 
   "projection": {
@@ -47,6 +47,7 @@
       "color": {
         "field": "percent_access",
         "type": "quantitative",
+        "title": "% population with energy access",
         "scale": {
           "type": "threshold",
           "domain": [12.5,25,37.5,50,62.5,75,87.5,100],

@@ -21,3 +21,11 @@ vegaEmbed("#country_renewable_bar",vg_5);
 // Stacked are chart for global renewables consumption
 var vg_6 = "js/global_renewables_consumption.vg.json";
 vegaEmbed("#global_renewables_vis",vg_6);
+
+// Line chart for energy access %
+var vg_7 = "js/access_line.vg.json";
+vegaEmbed("#access_percent_line",vg_7)
+
+// Line chart for global consumption per capita
+var vg_8 = "js/world_consumption_per_capita.vg.json";
+vegaEmbed("#global_consumption_line",vg_8);

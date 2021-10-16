@@ -1,50 +1,76 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": "container",
-    "height": 400,
-    "data": {"url": "https://raw.githubusercontent.com/william-1003/FIT3179/main/Visualisation%202/data/global-energy-consumption-long.csv"},
-    "background": "#f5fffa",
-  
-    "params": [
-    {
-      "name": "start_year",
-      "value": 1800,
-      "bind": {
-        "input": "range",
-        "min": 1800,
-        "max": 2018,
-        "step": 1,
-        "name": "Start year"
-      }
-    },
-    {
-      "name": "end_year",
-      "value": 2019,
-      "bind": {
-        "input": "range",
-        "min": 1801,
-        "max": 2019,
-        "step": 1,
-        "name": "End year"
-      }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "data": {"url": "https://raw.githubusercontent.com/william-1003/FIT3179/main/Visualisation%202/data/global-energy-consumption-long.csv"},
+  "background": "#f5fffa",
+
+  "params": [
+  {
+    "name": "start_year",
+    "value": 1800,
+    "bind": {
+      "input": "range",
+      "min": 1965,
+      "max": 2019,
+      "step": 1,
+      "name": "Start year"
     }
-  ],
-  
-    "mark": "area",
-    "encoding": {
-      "x": {
-      "timeUnit": "year", "field": "year",
-      "axis": {"format": "%Y"},
-      "title": "Year"
-      },
-      "y": {
-        "aggregate": "sum", "field": "power_consumption",
-        "title": "Global energy consumption (TWh)"
-      },
-      "color": {
-        "field": "energy_type",
-        "scale": {"scheme": "category10"},
-        "title": "Energy type"
-      }
+  },
+  {
+    "name": "end_year",
+    "value": 2019,
+    "bind": {
+      "input": "range",
+      "min": 1966,
+      "max": 2020,
+      "step": 1,
+      "name": "End year"
+    }
+  },
+  {
+  "name": "energy_type",
+  "value": null,
+  "bind": {
+    "input": "select",
+    "options": [
+      null,
+      "Geo Biomass Other",
+      "Hydro",
+      "Solar",
+      "Wind"
+    ],
+    "labels":[
+      "Show all",
+      "Geo biomass and other sources",
+      "Hydropower",
+      "Wind"
+    ],
+    "name": "Energy type"
+  }
+}
+],
+
+"transform": [
+{"filter": "energy_type == null || datum.energy_type == energy_type"},
+{"filter": {"timeUnit": "year", "field": "year", "range": ["start_year","end_year"]}}
+],
+
+  "mark": "area",
+  "encoding": {
+    "x": {
+    "timeUnit": "year", "field": "year",
+    "axis": {"format": "%Y"},
+    "title": "Year"
+    },
+    "y": {
+      "aggregate": "sum", "field": "power_consumption",
+      "title": "Global energy consumption (TWh)"
+    },
+    "color": {
+      "field": "energy_type",
+      "scale": {"range": ["green","blue","yellow","grey"]},
+      "title": "Energy type"
     }
   }
+}

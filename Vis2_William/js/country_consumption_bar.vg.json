@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
-    "height": 600,
+    "height": "container",
     "data": {"url": "https://raw.githubusercontent.com/william-1003/FIT3179/main/Visualisation%202/data/country-renewable-energy-2019.csv"},
     "background": "#f5fffa",
 
