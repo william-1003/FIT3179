@@ -23,34 +23,63 @@
     <h1 style = "text-align:center">Global Energy Production and Consumption</h1>
 
     <!-- Row of visualisation used for choropleth map of energy access-->
-    <div class = "pure-g text_div text_div">
-        <div class = "pure-u-1">
+    <div class = "pure-g row_div">
+        <div class = "pure-u-3-5">
             <h2>Does everyone have access to electricity?</h2>
-            <p>
-                Below is a visualisation of the percentage energy access of countries in the year 2019. The large majority of countries around the world are able to provide
-                energy access to almost 100% of their residents. Some notable regions with low energy access percentages include the Africa and Asia regions. Specifically, 
-                <b>South Sudan</b>, <b>Chad</b> and the <b>Central African Republic</b> have energy access percentages of <b>6.7%</b>, <b>8.4%</b> and <b>14.3%</b> respectively.
-            </p>
             <div id = "energy_access_choropleth"></div>
         </div>
+        <div class = "pure-u-2-5">
+            <div class = "pure-g">
+                <h2 class = "hidden_text">Does everyone have access to electricity?</h2>
+                <div class = "pure-u-1">
+                    <p>
+                        To the left is a visualisation of the percentage energy access of countries in the year 2019. The large majority of countries around the world are able to provide
+                        energy access to almost 100% of their residents. Some notable regions with low energy access percentages include the Africa and Asia regions. Specifically, 
+                        <b>South Sudan</b>, <b>Chad</b> and the <b>Central African Republic</b> have energy access percentages of <b>6.7%</b>, <b>8.4%</b> and <b>14.3%</b> respectively.
+                    </p>
+                    <p>
+                        Providing "access to affordable, reliable, sustainable and modern energy for all" is the 7th sustainable developement goal set out by the United Nations.
+                        While almost 90% of the world's population have access to electricity, providing adaquate service and infrastructure to those in predominately rural
+                        locations will prove to be a challenge heading into the future. Below are the timeseries for countries with notability low access percentages.
+                    </p>
+                </div>
+                <div class = "pure-u-1">
+                    <div id = "access_percent_line"></div>
+                </div>
+            </div>   
+        </div>   
     </div>
 
     <!-- Row of visualisation used for choropleth map of annual energy consumption per capita -->
-    <div class = "pure-g text_div text_div">
-        <div class = "pure-u-1">
+    <div class = "pure-g row_div">
+        <div class = "pure-u-3-5">
             <h2>Which countries consume the most energy per person?</h2>
-            <p>
-                The visualisation to the left depicts the annual energy consumption per capita categorised by country. The total energy consumption per capita is 
-                measured by a logarthmic scale using units of kWh. For reference, on kWh is the equivalent of running the microwave for one hour straight,
-                or charging a phone for 60 hours. Hover over a specific country in the geographic map to view the corresponding energy consumptions statsitics. 
-                The total energy consumption per capita of a specific year can further be adjusted using the slider on the bottom.
-            </p>
             <div id = "consumption_choropleth"></div>
+        </div>
+        <div class = "pure-u-2-5">
+            <div class = "pure-g">
+                <h2 class = "hidden_text">Which countries consume the most energy per person?</h2>
+                <div class = "pure-u-1">
+                    <p>
+                        The visualisation to the left depicts the annual energy consumption per capita categorised by country. The total energy consumption per capita is 
+                        measured by a logarthmic scale using units of kWh. 
+                    </p>
+                    <p>
+                        For reference, on kWh is the equivalent of running the microwave for one hour straight,
+                        or charging a phone for 60 hours. Hover over a specific country in the geographic map to view the corresponding energy consumptions statsitics. 
+                        The total energy consumption per capita of a specific year can further be adjusted using the slider on the bottom. Below is a timeseries of the
+                        energy consumption per capita globally.
+                    </p>
+                </div>
+                <div class = "pure-u-1">
+                    <div id = "global_consumption_line"></div>
+                </div>
+            </div> 
         </div>
     </div>
 
-    <!-- Row of visualisastion used for stacked area chart by energy type -->
-    <div class = "pure-g text_div">
+    <!-- Row of visualisastion used for stacked area charts by energy type -->
+    <div class = "pure-g row_div">
         <div class = "pure-u-1-2">
             <h2>What type of primary energy sources are being used?</h2>
             <p>
@@ -66,9 +95,16 @@
     </div>
 
     <!-- Row of visualisation for renewable energy visualisations -->
-    <div class = "pure-g text_div">
+    <div class = "pure-g row_div">
         <div class = "pure-u-1-2">
             <h2>The top 20 countries by proportion of renewable energy</h2>
+            <p>
+                The following scatterplot indicates that there is a general correlation between the annual energy consumption per person
+                and the GDP per capita of a country. The GDP per capita of each country has been standardised using the international dollar. For a given country,
+                one international dollar would purchase an equivalent amount of goods and services that one U.S dollar could obtain in the United States of America.
+                The countries have further been categorised based on their continent. The legend on the right can be used as a filter to view a specific continent.
+                To reset the filter, click on any empty section of the visualisation.
+            </p>
             <div id = "country_renewable_bar"></div>
         </div>
         <div class = "pure-u-1-2">
