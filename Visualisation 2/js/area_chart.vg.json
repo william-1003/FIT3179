@@ -82,7 +82,7 @@
     },
     "color": {
       "field": "energy_type",
-      "scale": {"scheme": "category10"},
+      "scale": {"range": ["#23402b","#000000","#dcebca","blue","#eda65a","#4d2105","#2bff00","yellow","green","grey"]},
       "title": "Energy type"
     },
     "tooltip": [
