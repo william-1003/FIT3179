@@ -1,0 +1,74 @@
+h1 {
+    font-family: "Ubuntu"
+}
+
+h2 {
+    font-family: "Ubuntu"
+}
+
+p {
+    font-family: "Ubuntu";
+}
+
+body {
+    background-color:#f5fffa;
+}
+
+.row_div {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.hidden_text {
+    visibility: hidden;
+}
+
+.annotation_text {
+    height: 25%;
+    width: 100%;
+}
+
+.body_text {
+    line-height: 135%;
+    width: 95%;
+}
+
+#global_consumption_by_type_area {
+    height: 400px;
+    width: 97.5%;
+}
+
+#consumption_choropleth {
+    height: 600px;
+    width: 100%;
+}
+
+#energy_access_choropleth {
+    height: 600px;
+    width: 100%;
+}
+
+#country_renewable_bar {
+    height: 640px;
+    width: 97.5%;
+}
+
+#global_renewables_vis {
+    height: 400px;
+    width: 97.5%;
+}
+
+#gdp_consumption_scatterplot {
+    height: 600px;
+    width: 97.5%;
+}
+
+#access_percent_line {
+    height: 150px;
+    width: 100%;
+}
+
+#global_consumption_line {
+    height: 300px;
+    width: 100%;
+}
