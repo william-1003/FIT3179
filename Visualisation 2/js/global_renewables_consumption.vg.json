@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "data": {"url": "https://raw.githubusercontent.com/william-1003/FIT3179/main/Visualisation%202/data/global-energy-consumption-long.csv"},
+  "background": "#f5fffa",
+
+  "params": [
+  {
+    "name": "start_year",
+    "value": 1965,
+    "bind": {
+      "input": "range",
+      "min": 1965,
+      "max": 2019,
+      "step": 1,
+      "name": "Start year"
+    }
+  },
+  {
+    "name": "end_year",
+    "value": 2020,
+    "bind": {
+      "input": "range",
+      "min": 1966,
+      "max": 2020,
+      "step": 1,
+      "name": "End year"
+    }
+  },
+  {
+  "name": "energy_type",
+  "value": null,
+  "bind": {
+    "input": "select",
+    "options": [
+      null,
+      "Geo Biomass Other",
+      "Hydro",
+      "Solar",
+      "Wind"
+    ],
+    "labels":[
+      "Show all",
+      "Geo biomass and other sources",
+      "Hydropower",
+      "Wind"
+    ],
+    "name": "Energy type"
+  }
+}
+],
+
+"transform": [
+{"filter": "energy_type == null || datum.energy_type == energy_type"},
+{"filter": {"timeUnit": "year", "field": "year", "range": ["start_year","end_year"]}}
+],
+
+  "mark": "area",
+  "encoding": {
+    "x": {
+    "timeUnit": "year", "field": "year",
+    "axis": {"format": "%Y"},
+    "title": "Year"
+    },
+    "y": {
+      "aggregate": "sum", "field": "power_consumption",
+      "title": "Global energy consumption (TWh)"
+    },
+    "color": {
+      "field": "energy_type",
+      "scale": {"range": ["green","blue","yellow","grey"]},
+      "title": "Energy type"
+    },
+    "tooltip": [
+      {"timeUnit": "year", "field": "year", "title": "Year"},
+      {"field": "energy_type", "type": "nominal", "title": "Renewable energy source"},
+      {"field": "power_consumption", "type": "quantitative", "title": "Energy consumption (TWh)"}
+    ]
+  }
+}
