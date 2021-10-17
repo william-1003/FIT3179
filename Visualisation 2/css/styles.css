@@ -39,12 +39,12 @@ body {
 }
 
 #consumption_choropleth {
-    height: 600px;
+    height: 640px;
     width: 100%;
 }
 
 #energy_access_choropleth {
-    height: 600px;
+    height: 640px;
     width: 100%;
 }
 
